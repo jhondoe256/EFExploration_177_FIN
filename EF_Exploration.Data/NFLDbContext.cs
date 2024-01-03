@@ -14,7 +14,7 @@ namespace EF_Exploration.Data
             //! We are settnig this up for demo purposes only!!!!
             // base.OnConfiguring(optionsBuilder);
             optionsBuilder
-            .UseSqlServer("Server=127.0.0.1;Database=NFL_EF_Exploration01;User Id=SA;Password=teachEFA@317;Trust Server Certificate=true;")
+            .UseSqlServer("Server=127.0.0.1;Database=NFL_EF_Exploration01;User Id=SA;Password=;Trust Server Certificate=true;")
             .LogTo(Console.WriteLine, LogLevel.Information) // we want the console to log out all of the information
             .EnableSensitiveDataLogging() //Eduational usage only can show things that need to be hidden
             .EnableDetailedErrors(); //Eduational usage only
